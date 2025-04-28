@@ -15,8 +15,8 @@ require('dotenv').config();
 const app = express();
 
 const allowedOrigins = [
-    'https://crime-frontend-eight.vercel.app/',
-    'http://localhost:3000', // Add your local development URL
+    'https://crime-frontend-eight.vercel.app',
+    'http://localhost:3000',
   ];
   
   app.use(cors({
