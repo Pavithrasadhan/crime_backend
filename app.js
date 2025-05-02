@@ -13,7 +13,6 @@ require('dotenv').config();
 
 const app = express();
 
-// ✅ CORS setup — only once and before any routes
 const allowedOrigins = [
   'https://crime-frontend-eight.vercel.app',
   'http://localhost:3000',
